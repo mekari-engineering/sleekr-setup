@@ -15,6 +15,9 @@ function color_output {
   echo -e "\033[33m$1\033[0m"
 }
 
+color_output "Configuring color output for ~/.bash_profile"
+cat ./bash_profile >> ~/.bash_profile
+
 color_output "Installing Homebrew"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
