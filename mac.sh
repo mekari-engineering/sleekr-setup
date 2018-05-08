@@ -35,6 +35,9 @@ color_echo "\nInstalling MySQL and starting MySQL service"
 brew install mysql
 brew services start mysql
 
+color_echo "\nInstalling Yarn"
+brew install yarn
+
 color_echo "\nInstalling Graphviz"
 brew install graphviz
 
