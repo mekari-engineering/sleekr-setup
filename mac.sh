@@ -15,10 +15,7 @@ function color_echo {
   echo -e "\033[33m$1\033[0m"
 }
 
-color_echo "Configuring color output for ~/.bash_profile"
-cat ./bash_profile >> ~/.bash_profile
-
-color_echo "\nInstalling Homebrew"
+color_echo "Installing Homebrew"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 color_echo "\nInstalling Google Chrome and Firefox"
@@ -47,6 +44,9 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 nvm --version
 nvm install --lts
+
+color_echo "\nConfiguring ~/.bash_profile"
+cat ./bash_profile >> ~/.bash_profile
 
 color_echo "\nInstalling Ruby Versioning Manager RVM"
 brew install gpg
