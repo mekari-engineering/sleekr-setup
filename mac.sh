@@ -29,8 +29,9 @@ color_echo "\nInstalling MacVim"
 brew install macvim
 
 color_echo "\nInstalling MySQL and starting MySQL service"
+brew install mysql@5.7
 brew install mysql
-brew services start mysql
+brew services start mysql@5.7
 
 color_echo "\nInstalling Yarn"
 brew install yarn
