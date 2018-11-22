@@ -87,3 +87,6 @@ Databases:
 
 [Postgres]: http://www.postgresql.org/
 [MySQL]: https://www.mysql.com
+
+## License
+Sleekr Setup is released under the [MIT License](https://opensource.org/licenses/MIT).
