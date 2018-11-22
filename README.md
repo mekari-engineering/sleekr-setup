@@ -1,8 +1,9 @@
 # README
-Sleekr Setup is a script to set up an macOS for development.
+Sleekr Setup is a script to set up an macOS for web development.
 
 ## Supported OS
 * macOS High Sierra (10.13)
+* macOS Mojave (10.14)
 
 ## How To Generate SSH Key (Optional)
 Download the generate_ssh_key script:
@@ -50,7 +51,7 @@ Optionally, review the log:
 less ~/sleekr-setup.log
 ```
 
-## Debugging
+## Logging
 Your last Laptop run will be saved to `~/sleekr-setup.log`.
 
 ## What it sets up
