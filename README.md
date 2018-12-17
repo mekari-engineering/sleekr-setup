@@ -51,7 +51,7 @@ Optionally, review the log:
 less ~/sleekr-setup.log
 ```
 
-## Logging
+## Error Log
 Your last Laptop run will be saved to `~/sleekr-setup.log`.
 
 ## What it sets up
